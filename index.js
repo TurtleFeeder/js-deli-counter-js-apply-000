@@ -1,9 +1,11 @@
 var katzDeli = [];
 var otherDeli = ["Steven", "Blake", "Avi"];
 
-function takeANumber(Deli, name){
-  Deli.push(name);
-  return `Welcome, ${name}. You are number ${Deli.length} in line.`;
+var i = 0;
+function takeANumber(Deli){
+  i++;
+  Deli.push(i);
+  return `Welcome you are number ${i}.`;
 }
 
 const deliLine = ["Steven", "Blake", "Avi"];
